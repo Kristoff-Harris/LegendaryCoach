@@ -1,0 +1,29 @@
+<div class="table-responsive">
+    <form method="post" action="/employees/add">
+        <table class="table table-condensed">
+            <tbody>
+            <tr>
+                <th width="200">Employee First Name: </th>
+                <td><input type="text" name="firstName" required
+                           placeholder="Enter firstname"></td>
+            </tr>
+            <tr>
+                <th>Employee Last Name: </th>
+                <td><input type="text" name="lastName" required
+                           placeholder="Enter lastname"></td>
+            </tr>
+            </tbody>
+            <tfooter>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Save"
+                               class="btn btn-success">
+                        <input type="button" value="Cancel"
+                               class="btn btn-danger" onclick="cancelAdd()">
+                    </td>
+                </tr>
+            </tfooter>
+        </table>
+    </form>
+</div>
